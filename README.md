@@ -10,7 +10,7 @@
 #### 1️⃣ Download the Script
 - **Using GitHub:** Clone the repository:  
   ```bash
-  git clone https://github.com/YOUR_GITHUB_USERNAME/jenkins-automation.git
+  git clone https://github.com/Itsmevikas/install_jenkins.git
   ```
 - **Using a ZIP file:** Extract it to a preferred directory.
 
@@ -31,15 +31,14 @@ sudo ./install_jenkins.sh
 
 ### Post Installation
 - To access Jenkins in a web browser:
-  - **Local Access:** `http://localhost:8000`
-  - **Remote Access:** `http://<server-ip>:8000`
+  - `http://localhost:8000`
 
 ---
 
 ## Q&A
 
 ### Describe the most difficult hurdle you had to overcome in implementing your solution.
-One of the hurdles I faced was figuring out how to change Jenkins’ default server request port to **8000**. To resolve this, I referred to **Stack Overflow** and **Jenkins documentation**, which helped me understand the correct way to modify the port settings. After applying the right configuration, Jenkins successfully started listening on **port 8000** as required. 
+One of the hurdles I faced was figuring out how to change Jenkins default server request port to **8000**. To resolve this, I referred to **Stack Overflow** and **Jenkins documentation**, which helped me understand the correct way to modify the port settings. After applying the right configuration, Jenkins successfully started listening on **port 8000** as required. 
 
 Additionally, when deploying my solution on an **EC2 instance**, Jenkins was running, but I couldn’t access it externally due to **incorrect inbound rules** for port **8000** in AWS Security Groups. After updating the security group to allow traffic on port **8000**, Jenkins became accessible as expected.
 
