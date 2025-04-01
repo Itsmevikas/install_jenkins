@@ -52,7 +52,7 @@ Additionally, redundant operations consume **system resources unnecessarily** an
 - **Docker Hub (Jenkins Image)**
 - **Stack Overflow**
 - **Peer Review**
-- **Online Research**
+- **Gen AI**
 
 ### Briefly explain what automation means to you, and why it is important to an organization's infrastructure design strategy.
 For me, automation isn’t just about eliminating **repetitive or boring tasks**—it’s about making things **more efficient and even enjoyable**. This exercise was a perfect example of that—turning a manual setup into an **automated process** made it both **fun and rewarding**. 
